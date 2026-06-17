@@ -16,7 +16,7 @@
   --radius:  10px;
 }
 
-body { font-family:'Inter',sans-serif; background:var(--offwhite); color:var(--text); min-height:100vh; }
+body { font-family:'Satoshi',sans-serif; background:var(--offwhite); color:var(--text); min-height:100vh; }
 
 /* ── HEADER ── */
 header {
@@ -39,7 +39,7 @@ header {
 
 /* ── HERO ── */
 .hero {
-  background: linear-gradient(150deg, var(--navy2) 0%, var(--navy) 50%, #1a0a2e 100%);
+  background: linear-gradient(150deg, rgba(11,35,71,.85) 0%, rgba(11,26,46,.8) 50%, rgba(26,10,46,.85) 100%), url('victorylive_hero_background.svg') center/cover no-repeat;
   padding:56px 40px 48px;
   text-align:center;
   position:relative;
