@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ticket Finder — Victory Live</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="#">
+    <img src="https://www.victorylive.com/wp-content/uploads/2025/01/Logo-White.svg" alt="Victory Live" onerror="this.style.display='none'"/>
+    <span class="logo-text" style="display:none">VICTORY <span>LIVE</span></span>
+  </a>
+  <span class="header-tag">Ticket Finder</span>
+</header>
+
+<div class="hero">
+  <div class="hero-label">Victory Live · Customer Portal</div>
+  <h1>Find Your <em>Ticket Portal</em></h1>
+  <p class="hero-sub">Select your sport or category, then search for your team or venue to access the right ticketing platform.</p>
+</div>
+
+<div class="flow">
+
+  <!-- Step indicator -->
+  <div class="flow-steps" id="step-indicator">
+    <div class="flow-step active" id="step1">
+      <div class="num">1</div> Choose Category
+    </div>
+    <div class="flow-chevron">›</div>
+    <div class="flow-step" id="step2">
+      <div class="num">2</div> Find Your Team or Venue
+    </div>
+    <div class="flow-chevron">›</div>
+    <div class="flow-step" id="step3">
+      <div class="num">3</div> Access Ticket Portal
+    </div>
+  </div>
+
+  <!-- Step 1: Category selection -->
+  <div id="cat-panel">
+    <div class="section-label">Select a category</div>
+    <div class="cat-grid" id="cat-grid"></div>
+  </div>
+
+  <!-- Step 2+3: Search & Results -->
+  <div id="search-panel">
+    <button class="back-btn" onclick="showCategories()">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 2L4 7L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      All Categories
+    </button>
+    <div id="category-heading" style="margin-bottom:20px;">
+      <div style="font-size:22px;font-weight:700;color:var(--text);display:flex;align-items:center;gap:10px;">
+        <span id="active-cat-icon"></span>
+        <span id="active-cat-name"></span>
+      </div>
+      <div style="font-size:13px;color:var(--slate);margin-top:4px;" id="search-hint"></div>
+    </div>
+    <div class="search-box-wrap">
+      <input type="text" id="search-input" placeholder="Search..." autocomplete="off"/>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 18 18" fill="none">
+        <circle cx="7.5" cy="7.5" r="5.5" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M13 13L16 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="result-count" id="result-count"></div>
+    <div class="results-grid" id="results-grid"></div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-left">© 2025 Victory Live · All rights reserved</div>
+  <div class="footer-logo">VICTORYLIVE.COM</div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
