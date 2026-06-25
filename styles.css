@@ -79,7 +79,12 @@ header {
   color:var(--slate);
   letter-spacing:.04em;
   text-transform:uppercase;
+  padding:6px 14px;
+  border-radius:999px;
+  transition:all .15s;
 }
+.flow-step:hover { background:var(--purple); color:#fff; }
+.flow-step:hover .num { background:#fff; color:var(--purple); }
 .flow-step.active { color:var(--text); }
 .flow-step .num {
   width:26px; height:26px;
@@ -116,12 +121,14 @@ header {
   display:flex;
   align-items:center;
   gap:12px;
+  white-space:normal;
 }
-.cat-btn:hover { border-color:var(--royal); box-shadow:0 4px 16px rgba(11,139,255,.12); transform:translateY(-1px); }
+.cat-btn:hover { background:var(--purple); border-color:var(--purple); box-shadow:0 4px 16px rgba(79,41,114,.18); transform:translateY(-1px); }
+.cat-btn:hover .cat-name, .cat-btn:hover .cat-count { color:#fff; }
 .cat-btn.selected { border-color:var(--royal); background:linear-gradient(135deg,rgba(11,139,255,.06),rgba(79,41,114,.04)); box-shadow:0 4px 16px rgba(11,139,255,.15); }
 .cat-icon { font-size:26px; flex-shrink:0; }
-.cat-info { min-width:0; }
-.cat-name { font-size:14px; font-weight:700; color:var(--text); line-height:1.2; }
+.cat-info { min-width:0; flex:1; }
+.cat-name { font-size:14px; font-weight:700; color:var(--text); line-height:1.2; overflow-wrap:break-word; word-break:break-word; }
 .cat-count { font-size:11px; color:var(--slate); margin-top:2px; }
 
 /* ── SEARCH PANEL ── */
@@ -201,7 +208,7 @@ header {
   transition:all .15s;
   cursor:pointer;
 }
-.card-link-btn:hover { background:var(--navy2); color:#fff; border-color:var(--navy2); }
+.card-link-btn:hover { background:var(--purple); color:#fff; border-color:var(--purple); }
 .card-link-btn svg { flex-shrink:0; }
 
 /* Music-specific */
@@ -342,13 +349,13 @@ footer {
   transition:background .12s;
 }
 .global-result-row:last-child { border-bottom:none; }
-.global-result-row:hover { background:var(--navy2); }
+.global-result-row:hover { background:var(--purple); }
 .global-result-row:hover .gr-name,
 .global-result-row:hover .gr-venue,
 .global-result-row:hover .gr-cat { color:#fff; }
 .gr-icon { font-size:18px; flex-shrink:0; }
-.gr-text { flex:1; min-width:0; }
+.gr-text { flex:1; min-width:0; display:flex; flex-direction:column; overflow:hidden; }
 .gr-name { font-size:14px; font-weight:700; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.gr-venue { font-weight:500; color:var(--slate); }
-.gr-cat { font-size:11px; font-weight:700; color:var(--royal); flex-shrink:0; white-space:nowrap; text-transform:uppercase; letter-spacing:.04em; }
+.gr-venue { font-size:12px; font-weight:500; color:var(--slate); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.gr-cat { font-size:11px; font-weight:700; color:var(--royal); flex-shrink:0; margin-left:10px; white-space:nowrap; text-transform:uppercase; letter-spacing:.04em; }
 .global-results .gr-empty { padding:16px; color:var(--slate); font-size:14px; }

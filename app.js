@@ -249,9 +249,10 @@ function renderGlobalResults(query) {
     '<button type="button" class="global-result-row" data-cat="' + encodeURIComponent(m.cat) +
       '" data-name="' + encodeURIComponent(m.name) + '">' +
       '<span class="gr-icon">' + m.icon + '</span>' +
-      '<span class="gr-text"><span class="gr-name">' + gEsc(m.name) +
-        (m.venue ? ' <span class="gr-venue">· ' + gEsc(m.venue) + '</span>' : '') +
-      '</span></span>' +
+      '<span class="gr-text">' +
+        '<span class="gr-name">' + gEsc(m.name) + '</span>' +
+        (m.venue ? '<span class="gr-venue">' + gEsc(m.venue) + '</span>' : '') +
+      '</span>' +
       '<span class="gr-cat">' + gEsc(m.label) + '</span>' +
     '</button>'
   ).join('');
