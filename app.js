@@ -197,3 +197,117 @@ if (logoImg) {
 
 // ── Init ──────────────────────────────────────────────────────
 renderCats();
+// ── GLOBAL HERO SEARCH (added) ────────────────────────────────
+// Searches every category for a team or venue and injects the search box into
+// the hero. Injection (rather than static markup) means it also appears on the
+// WordPress build, where the hero is a frozen Elementor HTML widget.
+
+function gEsc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"]/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]
+  ));
+}
+
+let GLOBAL_INDEX = null;
+function buildGlobalIndex() {
+  if (GLOBAL_INDEX) return GLOBAL_INDEX;
+  GLOBAL_INDEX = [];
+  CATS.forEach(c => {
+    const isMusic = c.key === 'Music and Performing Arts';
+    (DATA[c.key] || []).forEach(row => {
+      const name = isMusic ? (row.Partner || row.Venue || '') : (row.Team || '');
+      if (!name) return;
+      const venue = isMusic ? (row.Venue || '') : '';
+      GLOBAL_INDEX.push({
+        name, venue, cat: c.key, label: c.label, icon: c.icon,
+        search: (name + ' ' + venue).toLowerCase()
+      });
+    });
+  });
+  return GLOBAL_INDEX;
+}
+
+function renderGlobalResults(query) {
+  const panel = document.getElementById('global-search-results');
+  if (!panel) return;
+  const q = query.trim().toLowerCase();
+  if (q.length < 2) { panel.classList.remove('visible'); panel.innerHTML = ''; return; }
+
+  const idx = buildGlobalIndex();
+  const matches = [];
+  for (let i = 0; i < idx.length && matches.length < 60; i++) {
+    if (idx[i].search.includes(q)) matches.push(idx[i]);
+  }
+
+  if (matches.length === 0) {
+    panel.innerHTML = '<div class="gr-empty">No teams or venues match “' + gEsc(query) + '”.</div>';
+    panel.classList.add('visible');
+    return;
+  }
+
+  panel.innerHTML = matches.map(m =>
+    '<button type="button" class="global-result-row" data-cat="' + encodeURIComponent(m.cat) +
+      '" data-name="' + encodeURIComponent(m.name) + '">' +
+      '<span class="gr-icon">' + m.icon + '</span>' +
+      '<span class="gr-text"><span class="gr-name">' + gEsc(m.name) +
+        (m.venue ? ' <span class="gr-venue">· ' + gEsc(m.venue) + '</span>' : '') +
+      '</span></span>' +
+      '<span class="gr-cat">' + gEsc(m.label) + '</span>' +
+    '</button>'
+  ).join('');
+  panel.classList.add('visible');
+}
+
+function goToGlobalResult(cat, name) {
+  if (typeof selectCat === 'function') selectCat(cat);
+  const input = document.getElementById('search-input');
+  if (input) input.value = name;
+  if (typeof renderResults === 'function') renderResults(name);
+  const panel = document.getElementById('global-search-results');
+  if (panel) panel.classList.remove('visible');
+  const sp = document.getElementById('search-panel');
+  if (sp && sp.scrollIntoView) sp.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function initGlobalSearch() {
+  if (document.getElementById('global-search-input')) return; // already injected
+
+  // Anchor to the hero title ("Find Your Ticket Portal") so it sits right below it.
+  let anchor = null;
+  const heads = document.querySelectorAll('h1, h2, .elementor-heading-title');
+  for (let i = 0; i < heads.length; i++) {
+    if (/ticket portal/i.test(heads[i].textContent || '')) { anchor = heads[i]; break; }
+  }
+  if (!anchor) {
+    const hero = document.querySelector('.hero');
+    if (hero) anchor = hero.querySelector('h1') || hero.lastElementChild;
+  }
+  if (!anchor || !anchor.parentNode) return;
+
+  const wrap = document.createElement('div');
+  wrap.className = 'hero-search-wrap';
+  wrap.innerHTML =
+    '<input id="global-search-input" type="text" autocomplete="off" placeholder="Search any team or venue…" />' +
+    '<span class="hero-search-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none">' +
+      '<circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="2"/>' +
+      '<path d="M12.5 12.5L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>' +
+    '<div id="global-search-results" class="global-results"></div>';
+
+  anchor.parentNode.insertBefore(wrap, anchor.nextSibling);
+
+  document.getElementById('global-search-input')
+    .addEventListener('input', e => renderGlobalResults(e.target.value));
+
+  const panel = document.getElementById('global-search-results');
+  panel.addEventListener('click', e => {
+    const row = e.target.closest('.global-result-row');
+    if (!row) return;
+    goToGlobalResult(decodeURIComponent(row.dataset.cat), decodeURIComponent(row.dataset.name));
+  });
+
+  document.addEventListener('click', e => {
+    if (!wrap.contains(e.target)) panel.classList.remove('visible');
+  });
+}
+
+initGlobalSearch();
