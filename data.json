@@ -3,162 +3,194 @@
     {
       "Team": "Baltimore Orioles",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Baltimore"
     },
     {
       "Team": "Boston Red Sox",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Boston"
     },
     {
       "Team": "New York Yankees",
       "XFER Source(s)": "TM",
-      "Link": "https://am.ticketmaster.com/nyyreg/ | ticketmaster.com"
+      "Link": "https://am.ticketmaster.com/nyyreg/ | ticketmaster.com",
+      "City": "New York"
     },
     {
       "Team": "Tampa Bay Rays",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Tampa Bay"
     },
     {
       "Team": "Toronto Blue Jays",
       "XFER Source(s)": "TM",
-      "Link": "https://am.ticketmaster.com/tbjrc/ | ticketmaster.com"
+      "Link": "https://am.ticketmaster.com/tbjrc/ | ticketmaster.com",
+      "City": "Toronto"
     },
     {
       "Team": "Chicago White Sox (Spring Training)",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Glendale"
     },
     {
       "Team": "Chicago White Sox",
       "XFER Source(s)": "TM",
-      "Link": "https://am.ticketmaster.com/whitesox/ | ticketmaster.com"
+      "Link": "https://am.ticketmaster.com/whitesox/ | ticketmaster.com",
+      "City": "Chicago"
     },
     {
       "Team": "Cleveland Guardians",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Cleveland"
     },
     {
       "Team": "Detroit Tigers",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Detroit"
     },
     {
       "Team": "Kansas City Royals",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Kansas City"
     },
     {
       "Team": "Minnesota Twins",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Minneapolis"
     },
     {
       "Team": "Houston Astros",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Houston"
     },
     {
       "Team": "Los Angeles Angels",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Anaheim"
     },
     {
       "Team": "Oakland Athletics",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Oakland"
     },
     {
       "Team": "Seattle Mariners (Spring Training)",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Peoria"
     },
     {
       "Team": "Seattle Mariners",
       "XFER Source(s)": "TM",
-      "Link": "https://am.ticketmaster.com/mariners/ | ticketmaster.com"
+      "Link": "https://am.ticketmaster.com/mariners/ | ticketmaster.com",
+      "City": "Seattle"
     },
     {
       "Team": "Texas Rangers",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Arlington"
     },
     {
       "Team": "Atlanta Braves",
       "XFER Source(s)": "TM",
-      "Link": "https://am.ticketmaster.com/braves/ | ticketmaster.com"
+      "Link": "https://am.ticketmaster.com/braves/ | ticketmaster.com",
+      "City": "Atlanta"
     },
     {
       "Team": "Miami Marlins",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Miami"
     },
     {
       "Team": "New York Mets",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "New York"
     },
     {
       "Team": "Philadelphia Phillies",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Philadelphia"
     },
     {
       "Team": "Washington Nationals",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Washington"
     },
     {
       "Team": "Chicago Cubs",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Chicago"
     },
     {
       "Team": "Cincinnati Reds",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Cincinnati"
     },
     {
       "Team": "Milwaukee Brewers",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Milwaukee"
     },
     {
       "Team": "Pittsburgh Pirates",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Pittsburgh"
     },
     {
       "Team": "St. Louis Cardinals",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "St. Louis"
     },
     {
       "Team": "Arizona Diamondbacks",
       "XFER Source(s)": "TM",
-      "Link": "https://am.ticketmaster.com/azdbacks/ | ticketmaster.com"
+      "Link": "https://am.ticketmaster.com/azdbacks/ | ticketmaster.com",
+      "City": "Phoenix"
     },
     {
       "Team": "Colorado Rockies",
       "XFER Source(s)": "TM",
-      "Link": "https://am.ticketmaster.com/corockies/ | ticketmaster.com"
+      "Link": "https://am.ticketmaster.com/corockies/ | ticketmaster.com",
+      "City": "Denver"
     },
     {
       "Team": "Los Angeles Dodgers",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "Los Angeles"
     },
     {
       "Team": "San Diego Padres",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "San Diego"
     },
     {
       "Team": "San Francisco Giants",
       "XFER Source(s)": "TDC",
-      "Link": "https://www.mlb.com/apps/ballpark"
+      "Link": "https://www.mlb.com/apps/ballpark",
+      "City": "San Francisco"
     }
   ],
   "MiLB": [
@@ -455,628 +487,752 @@
     {
       "Team": "Buffalo Bills",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bills/"
+      "Link": "https://am.ticketmaster.com/bills/",
+      "City": "Buffalo"
     },
     {
       "Team": "New York Jets",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/nyjets/"
+      "Link": "https://am.ticketmaster.com/nyjets/",
+      "City": "New York"
     },
     {
       "Team": "Miami Dolphins",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/dolphins/"
+      "Link": "https://am.ticketmaster.com/dolphins/",
+      "City": "Miami"
     },
     {
       "Team": "New England Patriots",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/patriots/"
+      "Link": "https://am.ticketmaster.com/patriots/",
+      "City": "Boston"
     },
     {
       "Team": "Baltimore Ravens",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Baltimore"
     },
     {
       "Team": "Cleveland Browns",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/browns/"
+      "Link": "https://am.ticketmaster.com/browns/",
+      "City": "Cleveland"
     },
     {
       "Team": "Cincinnati Bengals",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bengals/"
+      "Link": "https://am.ticketmaster.com/bengals/",
+      "City": "Cincinnati"
     },
     {
       "Team": "Pittsburgh Steelers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/steelers/"
+      "Link": "https://am.ticketmaster.com/steelers/",
+      "City": "Pittsburgh"
     },
     {
       "Team": "Tennessee Titans",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Nashville"
     },
     {
       "Team": "Indianapolis Colts",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/colts/"
+      "Link": "https://am.ticketmaster.com/colts/",
+      "City": "Indianapolis"
     },
     {
       "Team": "Jacksonville Jaguars",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/jaguars/"
+      "Link": "https://am.ticketmaster.com/jaguars/",
+      "City": "Jacksonville"
     },
     {
       "Team": "Houston Texans",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/texans/"
+      "Link": "https://am.ticketmaster.com/texans/",
+      "City": "Houston"
     },
     {
       "Team": "Kansas City Chiefs",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/chiefs/"
+      "Link": "https://am.ticketmaster.com/chiefs/",
+      "City": "Kansas City"
     },
     {
       "Team": "Los Angeles Chargers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/chargers/"
+      "Link": "https://am.ticketmaster.com/chargers/",
+      "City": "Los Angeles"
     },
     {
       "Team": "Denver Broncos",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/broncos/"
+      "Link": "https://am.ticketmaster.com/broncos/",
+      "City": "Denver"
     },
     {
       "Team": "Las Vegas Raiders",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/raiders/"
+      "Link": "https://am.ticketmaster.com/raiders/",
+      "City": "Las Vegas"
     },
     {
       "Team": "Philadelphia Eagles",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/eagles/"
+      "Link": "https://am.ticketmaster.com/eagles/",
+      "City": "Philadelphia"
     },
     {
       "Team": "Dallas Cowboys",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Dallas"
     },
     {
       "Team": "New York Giants",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/nygiants/"
+      "Link": "https://am.ticketmaster.com/nygiants/",
+      "City": "New York"
     },
     {
       "Team": "Washington Commanders",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Washington"
     },
     {
       "Team": "Minnesota Vikings",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/vikings/"
+      "Link": "https://am.ticketmaster.com/vikings/",
+      "City": "Minneapolis"
     },
     {
       "Team": "Green Bay Packers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/packers/"
+      "Link": "https://am.ticketmaster.com/packers/",
+      "City": "Green Bay"
     },
     {
       "Team": "Chicago Bears",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bears/"
+      "Link": "https://am.ticketmaster.com/bears/",
+      "City": "Chicago"
     },
     {
       "Team": "Detroit Lions",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/detroitlions/"
+      "Link": "https://am.ticketmaster.com/detroitlions/",
+      "City": "Detroit"
     },
     {
       "Team": "Tampa Bay Buccaneers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bucs/"
+      "Link": "https://am.ticketmaster.com/bucs/",
+      "City": "Tampa"
     },
     {
       "Team": "New Orleans Saints",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "New Orleans"
     },
     {
       "Team": "Atlanta Falcons",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/falcons/"
+      "Link": "https://am.ticketmaster.com/falcons/",
+      "City": "Atlanta"
     },
     {
       "Team": "Carolina Panthers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/panthers/"
+      "Link": "https://am.ticketmaster.com/panthers/",
+      "City": "Charlotte"
     },
     {
       "Team": "Atlanta Falcons",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/falcons/"
+      "Link": "https://am.ticketmaster.com/falcons/",
+      "City": "Atlanta"
     },
     {
       "Team": "Los Angeles Rams",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/rams/"
+      "Link": "https://am.ticketmaster.com/rams/",
+      "City": "Los Angeles"
     },
     {
       "Team": "Arizona Cardinals",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Phoenix"
     },
     {
       "Team": "Seattle Seahawks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/seahawks/"
+      "Link": "https://am.ticketmaster.com/seahawks/",
+      "City": "Seattle"
     }
   ],
   "NBA": [
     {
       "Team": "Philadelphia 76ers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/sixers/"
+      "Link": "https://am.ticketmaster.com/sixers/",
+      "City": "Philadelphia"
     },
     {
       "Team": "Miami Heat",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/heat/"
+      "Link": "https://am.ticketmaster.com/heat/",
+      "City": "Miami"
     },
     {
       "Team": "Chicago Bulls",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bulls/"
+      "Link": "https://am.ticketmaster.com/bulls/",
+      "City": "Chicago"
     },
     {
       "Team": "Orlando Magic",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/magic/"
+      "Link": "https://am.ticketmaster.com/magic/",
+      "City": "Orlando"
     },
     {
       "Team": "Boston Celtics",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/celtics/\nhttps://am.ticketmaster.com/tdgarden/"
+      "Link": "https://am.ticketmaster.com/celtics/\nhttps://am.ticketmaster.com/tdgarden/",
+      "City": "Boston"
     },
     {
       "Team": "New York Knicks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/msg/"
+      "Link": "https://am.ticketmaster.com/msg/",
+      "City": "New York"
     },
     {
       "Team": "Indiana Pacers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/pacers/"
+      "Link": "https://am.ticketmaster.com/pacers/",
+      "City": "Indianapolis"
     },
     {
       "Team": "Atlanta Hawks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/hawks/"
+      "Link": "https://am.ticketmaster.com/hawks/",
+      "City": "Atlanta"
     },
     {
       "Team": "Toronto Raptors",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/raptors/"
+      "Link": "https://am.ticketmaster.com/raptors/",
+      "City": "Toronto"
     },
     {
       "Team": "Washington Wizards",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/monumental/"
+      "Link": "https://am.ticketmaster.com/monumental/",
+      "City": "Washington"
     },
     {
       "Team": "Cleveland Cavaliers",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Cleveland"
     },
     {
       "Team": "Brooklyn Nets",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bse/"
+      "Link": "https://am.ticketmaster.com/bse/",
+      "City": "New York"
     },
     {
       "Team": "Detroit Pistons",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/pistons/"
+      "Link": "https://am.ticketmaster.com/pistons/",
+      "City": "Detroit"
     },
     {
       "Team": "Milwaukee Bucks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bucks/"
+      "Link": "https://am.ticketmaster.com/bucks/",
+      "City": "Milwaukee"
     },
     {
       "Team": "Charlotte Hornets",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/charhornets/"
+      "Link": "https://am.ticketmaster.com/charhornets/",
+      "City": "Charlotte"
     },
     {
       "Team": "Minnesota Timberwolves",
       "XFER Source(s)": "AXS Resale (MAYBE TM for Single Game Purchases)",
-      "Link": "https://fanaccount.axs.com/login?skin=timberwolves"
+      "Link": "https://fanaccount.axs.com/login?skin=timberwolves",
+      "City": "Minneapolis"
     },
     {
       "Team": "Sacramento Kings",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/sackings/"
+      "Link": "https://am.ticketmaster.com/sackings/",
+      "City": "Sacramento"
     },
     {
       "Team": "Oklahoma City Thunder",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/okcnba/"
+      "Link": "https://am.ticketmaster.com/okcnba/",
+      "City": "Oklahoma City"
     },
     {
       "Team": "New Orleans Pelicans",
       "XFER Source(s)": "SeatGeek (MAYBE TM for Single Game Purchases)",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "New Orleans"
     },
     {
       "Team": "Golden State Warriors",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/warriors/"
+      "Link": "https://am.ticketmaster.com/warriors/",
+      "City": "San Francisco"
     },
     {
       "Team": "Houston Rockets",
       "XFER Source(s)": "AXS Resale (MAYBE TM for Single Game Purchases)\nCheck Toyota Center + Houston Rockets Both",
-      "Link": "https://fanaccount.axs.com/login/?skin=houstonrockets"
+      "Link": "https://fanaccount.axs.com/login/?skin=houstonrockets",
+      "City": "Houston"
     },
     {
       "Team": "Memphis Grizzlies",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/grizzlies/"
+      "Link": "https://am.ticketmaster.com/grizzlies/",
+      "City": "Memphis"
     },
     {
       "Team": "Denver Nuggets",
       "XFER Source(s)": "Ticketmaster (KSE Account Manager)",
-      "Link": "https://am.ticketmaster.com/kse/"
+      "Link": "https://am.ticketmaster.com/kse/",
+      "City": "Denver"
     },
     {
       "Team": "LA Clippers",
       "XFER Source(s)": "Intuit Dome App (MAYBE TM for Single Game Purchases)",
-      "Link": "https://intuitdome.com/login"
+      "Link": "https://intuitdome.com/login",
+      "City": "Los Angeles"
     },
     {
       "Team": "Dallas Mavericks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/mavericks/"
+      "Link": "https://am.ticketmaster.com/mavericks/",
+      "City": "Dallas"
     },
     {
       "Team": "Utah Jazz",
       "XFER Source(s)": "Seatgeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Salt Lake City"
     },
     {
       "Team": "Phoenix Suns",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/suns/"
+      "Link": "https://am.ticketmaster.com/suns/",
+      "City": "Phoenix"
     },
     {
       "Team": "San Antonio Spurs",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/spurs/"
+      "Link": "https://am.ticketmaster.com/spurs/",
+      "City": "San Antonio"
     },
     {
       "Team": "Los Angeles Lakers",
       "XFER Source(s)": "AXS Resale + Ticketmaster",
-      "Link": "https://www.axs.com/\nhttps://am.ticketmaster.com/lakers/"
+      "Link": "https://www.axs.com/\nhttps://am.ticketmaster.com/lakers/",
+      "City": "Los Angeles"
     },
     {
       "Team": "Portland Trail Blazers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/trailblazers/"
+      "Link": "https://am.ticketmaster.com/trailblazers/",
+      "City": "Portland"
     }
   ],
   "NHL": [
     {
       "Team": "New York Rangers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/msg/"
+      "Link": "https://am.ticketmaster.com/msg/",
+      "City": "New York"
     },
     {
       "Team": "Pittsburgh Penguins",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/penguins/"
+      "Link": "https://am.ticketmaster.com/penguins/",
+      "City": "Pittsburgh"
     },
     {
       "Team": "Boston Bruins",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/tdgarden/"
+      "Link": "https://am.ticketmaster.com/tdgarden/",
+      "City": "Boston"
     },
     {
       "Team": "Philadelphia Flyers",
       "XFER Source(s)": "Wells Fargo Evenue (Sellers often just deliver PDFs)",
-      "Link": "https://wellsfargocenter.evenue.net/cgi-bin/ncommerce3/EVExecMacro?linkID=global-wachovia&evm=myac"
+      "Link": "https://wellsfargocenter.evenue.net/cgi-bin/ncommerce3/EVExecMacro?linkID=global-wachovia&evm=myac",
+      "City": "Philadelphia"
     },
     {
       "Team": "Carolina Hurricanes",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/hurricanes/"
+      "Link": "https://am.ticketmaster.com/hurricanes/",
+      "City": "Raleigh"
     },
     {
       "Team": "Buffalo Sabres",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/buffalo/"
+      "Link": "https://am.ticketmaster.com/buffalo/",
+      "City": "Buffalo"
     },
     {
       "Team": "Florida Panthers",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/florida-panthers-tickets"
+      "Link": "https://seatgeek.com/florida-panthers-tickets",
+      "City": "Sunrise"
     },
     {
       "Team": "Montreal Canadiens",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/canadiens/"
+      "Link": "https://am.ticketmaster.com/canadiens/",
+      "City": "Montreal"
     },
     {
       "Team": "Toronto Maple Leafs",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/mapleleafs/"
+      "Link": "https://am.ticketmaster.com/mapleleafs/",
+      "City": "Toronto"
     },
     {
       "Team": "Detroit Red Wings",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/redwings/"
+      "Link": "https://am.ticketmaster.com/redwings/",
+      "City": "Detroit"
     },
     {
       "Team": "Tampa Bay Lightning",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bolts/"
+      "Link": "https://am.ticketmaster.com/bolts/",
+      "City": "Tampa"
     },
     {
       "Team": "New York Islanders",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/newyorkislanders/"
+      "Link": "https://am.ticketmaster.com/newyorkislanders/",
+      "City": "New York"
     },
     {
       "Team": "Ottawa Senators",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/sse/"
+      "Link": "https://am.ticketmaster.com/sse/",
+      "City": "Ottawa"
     },
     {
       "Team": "Columbus Blue Jackets",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/bluejackets/"
+      "Link": "https://am.ticketmaster.com/bluejackets/",
+      "City": "Columbus"
     },
     {
       "Team": "New Jersey Devils",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/devils/"
+      "Link": "https://am.ticketmaster.com/devils/",
+      "City": "Newark"
     },
     {
       "Team": "Washington Capitals",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/monumental/"
+      "Link": "https://am.ticketmaster.com/monumental/",
+      "City": "Washington"
     },
     {
       "Team": "Vegas Golden Knights",
       "XFER Source(s)": "AXS Resale",
-      "Link": "https://www.axs.com/"
+      "Link": "https://www.axs.com/",
+      "City": "Las Vegas"
     },
     {
       "Team": "Nashville Predators",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/predators/"
+      "Link": "https://am.ticketmaster.com/predators/",
+      "City": "Nashville"
     },
     {
       "Team": "Seattle Kraken",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/nhlseattle/"
+      "Link": "https://am.ticketmaster.com/nhlseattle/",
+      "City": "Seattle"
     },
     {
       "Team": "Dallas Stars",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/dallasstars/"
+      "Link": "https://am.ticketmaster.com/dallasstars/",
+      "City": "Dallas"
     },
     {
       "Team": "Edmonton Oilers",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/oilers/"
+      "Link": "https://am.ticketmaster.com/oilers/",
+      "City": "Edmonton"
     },
     {
       "Team": "Calgary Flames",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/flames/"
+      "Link": "https://am.ticketmaster.com/flames/",
+      "City": "Calgary"
     },
     {
       "Team": "Anaheim Ducks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/ducks/"
+      "Link": "https://am.ticketmaster.com/ducks/",
+      "City": "Anaheim"
     },
     {
       "Team": "Colorado Avalanche",
       "XFER Source(s)": "Ticketmaster (KSE Account Manager)",
-      "Link": "https://am.ticketmaster.com/kse/"
+      "Link": "https://am.ticketmaster.com/kse/",
+      "City": "Denver"
     },
     {
       "Team": "St. Louis Blues",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/blues/"
+      "Link": "https://am.ticketmaster.com/blues/",
+      "City": "St. Louis"
     },
     {
       "Team": "Winnipeg Jets",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/tnse/"
+      "Link": "https://am.ticketmaster.com/tnse/",
+      "City": "Winnipeg"
     },
     {
       "Team": "Vancouver Canucks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/canucks/"
+      "Link": "https://am.ticketmaster.com/canucks/",
+      "City": "Vancouver"
     },
     {
       "Team": "Utah Hockey Club",
       "XFER Source(s)": "SeatGeek",
-      "Link": "seatgeek.com"
+      "Link": "seatgeek.com",
+      "City": "Salt Lake City"
     },
     {
       "Team": "Minnesota Wild",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/wild/"
+      "Link": "https://am.ticketmaster.com/wild/",
+      "City": "St. Paul"
     },
     {
       "Team": "Chicago Blackhawks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/blackhawks/"
+      "Link": "https://am.ticketmaster.com/blackhawks/",
+      "City": "Chicago"
     },
     {
       "Team": "Los Angeles Kings",
       "XFER Source(s)": "AXS Resale (MAYBE TM for Single Game Purchases)",
-      "Link": "https://fanaccount.axs.com/login"
+      "Link": "https://fanaccount.axs.com/login",
+      "City": "Los Angeles"
     },
     {
       "Team": "San Jose Sharks",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/sharks/"
+      "Link": "https://am.ticketmaster.com/sharks/",
+      "City": "San Jose"
     }
   ],
   "MLS": [
     {
       "Team": "Philadelphia Union",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Philadelphia"
     },
     {
       "Team": "CF Montréal",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Montreal"
     },
     {
       "Team": "New York City FC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/nycfc/"
+      "Link": "https://am.ticketmaster.com/nycfc/",
+      "City": "New York"
     },
     {
       "Team": "New York Red Bulls",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/nyredbulls/"
+      "Link": "https://am.ticketmaster.com/nyredbulls/",
+      "City": "New York"
     },
     {
       "Team": "FC Cincinnati",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Cincinnati"
     },
     {
       "Team": "Inter Miami CF",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/intermiamicf/"
+      "Link": "https://am.ticketmaster.com/intermiamicf/",
+      "City": "Miami"
     },
     {
       "Team": "Orlando City SC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/ocsoccer/"
+      "Link": "https://am.ticketmaster.com/ocsoccer/",
+      "City": "Orlando"
     },
     {
       "Team": "Columbus Crew",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/crew/"
+      "Link": "https://am.ticketmaster.com/crew/",
+      "City": "Columbus"
     },
     {
       "Team": "Charlotte FC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/charlottemls/"
+      "Link": "https://am.ticketmaster.com/charlottemls/",
+      "City": "Charlotte"
     },
     {
       "Team": "New England Revolution",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/revolution/"
+      "Link": "https://am.ticketmaster.com/revolution/",
+      "City": "Boston"
     },
     {
       "Team": "Atlanta United FC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/atlantaunited/"
+      "Link": "https://am.ticketmaster.com/atlantaunited/",
+      "City": "Atlanta"
     },
     {
       "Team": "Chicago Fire FC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/chicagofire/"
+      "Link": "https://am.ticketmaster.com/chicagofire/",
+      "City": "Chicago"
     },
     {
       "Team": "Toronto FC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/tfc/"
+      "Link": "https://am.ticketmaster.com/tfc/",
+      "City": "Toronto"
     },
     {
       "Team": "D.C. United",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/dcunited/"
+      "Link": "https://am.ticketmaster.com/dcunited/",
+      "City": "Washington"
     },
     {
       "Team": "LAFC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/lafc/"
+      "Link": "https://am.ticketmaster.com/lafc/",
+      "City": "Los Angeles"
     },
     {
       "Team": "Austin FC",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Austin"
     },
     {
       "Team": "FC Dallas",
       "XFER Source(s)": "AXS Resale",
-      "Link": "fanaccount.axs.com/skin?=fcdallas"
+      "Link": "fanaccount.axs.com/skin?=fcdallas",
+      "City": "Dallas"
     },
     {
       "Team": "LA Galaxy",
       "XFER Source(s)": "AXS Resale",
-      "Link": "https://fanaccount.axs.com/login"
+      "Link": "https://fanaccount.axs.com/login",
+      "City": "Los Angeles"
     },
     {
       "Team": "Nashville SC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/nashvillescmls/"
+      "Link": "https://am.ticketmaster.com/nashvillescmls/",
+      "City": "Nashville"
     },
     {
       "Team": "Minnesota United FC",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "St. Paul"
     },
     {
       "Team": "Real Salt Lake",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Salt Lake City"
     },
     {
       "Team": "Portland Timbers",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Portland"
     },
     {
       "Team": "Vancouver Whitecaps",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/whitecaps/"
+      "Link": "https://am.ticketmaster.com/whitecaps/",
+      "City": "Vancouver"
     },
     {
       "Team": "Colorado Rapids",
       "XFER Source(s)": "Ticketmaster (KSE Account Manager)",
-      "Link": "https://am.ticketmaster.com/kse/"
+      "Link": "https://am.ticketmaster.com/kse/",
+      "City": "Denver"
     },
     {
       "Team": "Seattle Sounders FC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/soundersfc/"
+      "Link": "https://am.ticketmaster.com/soundersfc/",
+      "City": "Seattle"
     },
     {
       "Team": "Sporting Kansas City",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Kansas City"
     },
     {
       "Team": "Houston Dynamo FC",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "Houston"
     },
     {
       "Team": "San Jose Earthquakes",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/sjearthquakes/"
+      "Link": "https://am.ticketmaster.com/sjearthquakes/",
+      "City": "San Jose"
     },
     {
       "Team": "St. Louis City SC",
       "XFER Source(s)": "SeatGeek",
-      "Link": "https://seatgeek.com/"
+      "Link": "https://seatgeek.com/",
+      "City": "St. Louis"
     },
     {
       "Team": "San Diego FC",
       "XFER Source(s)": "Ticketmaster",
-      "Link": "https://am.ticketmaster.com/sandiegofc/en"
+      "Link": "https://am.ticketmaster.com/sandiegofc/en",
+      "City": "San Diego"
     }
   ],
   "College Sports": [

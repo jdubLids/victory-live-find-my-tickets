@@ -307,3 +307,103 @@ initGlobalSearch();
   var si = document.getElementById('step-indicator');
   if (si) si.remove();
 })();
+
+
+// ── BROWSE BY CITY (added) ───────────────────────────────────
+// Data-driven on a `City` field. Seeded now for major-league teams; expands
+// automatically as City values arrive from the source sheet (incl. venues).
+let CITY_INDEX = null;
+function buildCityIndex() {
+  if (CITY_INDEX) return CITY_INDEX;
+  CITY_INDEX = {};
+  CATS.forEach(c => {
+    const isMusic = c.key === 'Music and Performing Arts';
+    (DATA[c.key] || []).forEach(row => {
+      const city = (row.City || '').trim();
+      if (!city) return;
+      const name = isMusic ? (row.Partner || row.Venue || '') : (row.Team || '');
+      if (!name) return;
+      (CITY_INDEX[city] = CITY_INDEX[city] || []).push({ name, cat: c.key, row });
+    });
+  });
+  return CITY_INDEX;
+}
+
+function renderCityGrid(filter) {
+  const grid = document.getElementById('city-grid');
+  if (!grid) return;
+  const idx = buildCityIndex();
+  const q = (filter || '').trim().toLowerCase();
+  let cities = Object.keys(idx).sort((a, b) => a.localeCompare(b));
+  if (q) cities = cities.filter(c => c.toLowerCase().includes(q));
+  if (cities.length === 0) {
+    grid.innerHTML = '<div class="empty-state" style="padding:24px;grid-column:1/-1">No cities found</div>';
+    return;
+  }
+  grid.innerHTML = cities.map(c => {
+    const n = idx[c].length;
+    return '<button type="button" class="city-btn" data-city="' + encodeURIComponent(c) + '">' +
+      '<span class="city-pin">📍</span>' +
+      '<span class="city-info"><span class="city-name">' + gEsc(c) + '</span>' +
+      '<span class="city-count">' + n + (n === 1 ? ' team / venue' : ' teams & venues') + '</span></span>' +
+    '</button>';
+  }).join('');
+}
+
+function showCity(city) {
+  const idx = buildCityIndex();
+  const items = idx[city] || [];
+  const res = document.getElementById('city-results');
+  if (!res) return;
+  const cards = items.map(it => renderCard(it.row, it.cat)).join('');
+  res.innerHTML =
+    '<button class="back-btn" id="city-back">' +
+      '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 2L4 7L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> All cities</button>' +
+    '<div style="font-size:22px;font-weight:700;color:var(--text);margin-bottom:16px;display:flex;align-items:center;gap:8px;">📍 ' + gEsc(city) + '</div>' +
+    '<div class="results-grid">' + cards + '</div>';
+  // Hide the category chooser + city grid while viewing a city
+  var cp = document.getElementById('cat-panel'); if (cp) cp.style.display = 'none';
+  var lbl = document.getElementById('city-label'); if (lbl) lbl.style.display = 'none';
+  var sw = document.getElementById('city-search-wrap'); if (sw) sw.style.display = 'none';
+  var g = document.getElementById('city-grid'); if (g) g.style.display = 'none';
+  document.getElementById('city-back').addEventListener('click', hideCity);
+  res.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function hideCity() {
+  var res = document.getElementById('city-results'); if (res) res.innerHTML = '';
+  var cp = document.getElementById('cat-panel'); if (cp) cp.style.display = '';
+  var lbl = document.getElementById('city-label'); if (lbl) lbl.style.display = '';
+  var sw = document.getElementById('city-search-wrap'); if (sw) sw.style.display = '';
+  var g = document.getElementById('city-grid'); if (g) g.style.display = '';
+}
+
+function initCities() {
+  if (document.getElementById('city-panel')) return;
+  const catPanel = document.getElementById('cat-panel');
+  if (!catPanel) return;
+  if (Object.keys(buildCityIndex()).length === 0) return; // nothing to show yet
+  const panel = document.createElement('div');
+  panel.id = 'city-panel';
+  panel.innerHTML =
+    '<div class="section-label" id="city-label">Or browse by city</div>' +
+    '<div id="city-search-wrap" class="city-search-wrap"><input id="city-search" type="text" autocomplete="off" placeholder="Search a city…" /></div>' +
+    '<div class="cat-grid" id="city-grid"></div>' +
+    '<div id="city-results"></div>';
+  catPanel.parentNode.insertBefore(panel, catPanel.nextSibling);
+  renderCityGrid('');
+  document.getElementById('city-search').addEventListener('input', e => { hideCity(); renderCityGrid(e.target.value); });
+  document.getElementById('city-grid').addEventListener('click', e => {
+    const b = e.target.closest('.city-btn');
+    if (b) showCity(decodeURIComponent(b.dataset.city));
+  });
+}
+
+// Keep the city panel in sync with the category flow
+(function () {
+  var _sel = window.selectCat, _show = window.showCategories;
+  window.selectCat = function (k) { var cp = document.getElementById('city-panel'); if (cp) cp.style.display = 'none'; if (_sel) _sel(k); };
+  window.showCategories = function () { var cp = document.getElementById('city-panel'); if (cp) cp.style.display = ''; hideCity(); if (_show) _show(); };
+})();
+
+initCities();
