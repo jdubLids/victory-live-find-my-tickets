@@ -79,12 +79,7 @@ header {
   color:var(--slate);
   letter-spacing:.04em;
   text-transform:uppercase;
-  padding:6px 14px;
-  border-radius:999px;
-  transition:all .15s;
 }
-.flow-step:hover { background:var(--purple); color:#fff; }
-.flow-step:hover .num { background:#fff; color:var(--purple); }
 .flow-step.active { color:var(--text); }
 .flow-step .num {
   width:26px; height:26px;
@@ -334,7 +329,7 @@ footer {
 }
 .hero-search-wrap input:focus { border-color:var(--royal); }
 .hero-search-wrap input::placeholder { color:#AAB4CC; }
-.hero-search-icon { position:absolute; right:18px; top:25px; transform:translateY(-50%); color:var(--slate); pointer-events:none; }
+.hero-search-icon { position:absolute; right:18px; top:50%; transform:translateY(-50%); color:var(--slate); pointer-events:none; }
 .global-results {
   position:absolute; left:0; right:0; top:calc(100% + 8px);
   background:#fff; border:1px solid var(--border); border-radius:var(--radius);
