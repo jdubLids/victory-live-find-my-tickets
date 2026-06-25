@@ -64,10 +64,6 @@ function selectCat(key) {
     ? 'Search venues or partners…'
     : 'Search teams…';
 
-  // Update step indicator
-  document.getElementById('step1').classList.remove('active'); document.getElementById('step1').classList.add('done');
-  document.getElementById('step2').classList.add('active');
-  document.getElementById('step3').classList.remove('active');
 
   const input = document.getElementById('search-input');
   input.value = '';
@@ -80,9 +76,6 @@ function showCategories() {
   activeCat = null;
   document.getElementById('cat-panel').style.display = '';
   document.getElementById('search-panel').classList.remove('visible');
-  document.getElementById('step1').classList.add('active'); document.getElementById('step1').classList.remove('done');
-  document.getElementById('step2').classList.remove('active');
-  document.getElementById('step3').classList.remove('active');
 }
 
 // ── Render a single result card ───────────────────────────────
@@ -174,10 +167,6 @@ function renderResults(query) {
 
   grid.innerHTML = filtered.map(r => renderCard(r, activeCat)).join('');
 
-  // Update step 3
-  if (q || !isMusic) {
-    document.getElementById('step3').classList.add('active');
-  }
 }
 
 // ── Search listener ───────────────────────────────────────────
@@ -312,3 +301,9 @@ function initGlobalSearch() {
 }
 
 initGlobalSearch();
+
+// ── Remove legacy step breadcrumbs (also strips the WordPress build's baked-in markup) ──
+(function () {
+  var si = document.getElementById('step-indicator');
+  if (si) si.remove();
+})();
